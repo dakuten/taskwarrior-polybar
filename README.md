@@ -1,9 +1,11 @@
 # taskwarrior-polybar
 merely just a script showing the most urgent task and allowing it to be marked done
 
+![screenshot](sshot.png)
+
 Place `task_polybar.sh` in your `$XDG_CONFIG_HOME/polybar` folder and add the following module to your `config` file:
 
-```
+```ini
 [module/taskwarrior]
 interval = 30
 type = custom/script
